@@ -1,0 +1,11 @@
+Package: pcaReduce
+Type: Package
+Title: Hierarchical Clustering of Single Cell Transcriptional Profiles
+Version: 1.0
+Date: 2015-04-28
+Author: Justina Zurauskiene and Christopher Yau
+Maintainer:Justina Zurauskiene <justina_zurauskiene@gmail.com>
+Depends: R (>= 3.0.1), pcaMethods (>= 1.50.0), mnormt (>= 1.5-1), mclust (>= 4.3)
+Description: pcaReduce delivers hierarchical representation of single cell RNA-seq data via dimensionality reduction and clustering. It is based on integration of two tools: K-means clustering algorithm and principal components analysis. pcaReduce uses agglomerative clustering to generate a cell state hierarchy, where each cluster branch is associated with a principal component of variation that can assist in differentiating two cellular states. Therefore, it can be applied for characterising cell state identity.
+License: GPL (>= 2)
+
