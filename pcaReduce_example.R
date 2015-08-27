@@ -1,6 +1,6 @@
-b <-read.table("/Users/justina/Documents/My_papers/pcaReduce/codes/Pollen/For_upload/Pollen2014.txt", sep=',', header = T,row.names=1)
+b <-read.table("Pollen2014.txt", sep=',', header = T,row.names=1)
 
-lb <-read.table("/Users/justina/Documents/My_papers/pcaReduce/codes/Pollen/For_upload/SupplementaryLabels.txt", sep=',', header = T)
+lb <-read.table("SupplementaryLabels.txt", sep=',', header = T)
 
 D <- log2(as.matrix(b) + 1) # log transformation of count data
 
