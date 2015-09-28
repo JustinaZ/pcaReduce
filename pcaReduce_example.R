@@ -11,7 +11,7 @@ true_tissue_cls <- lb[,6] # true data partition K=4
 true_cell_cls <- lb[,4]   # true data partition K=11
 
 library("pcaMethods")
-Y <- prep(D_t, scale="none", center=TRUE)
+Y <- prep(Input, scale="none", center=TRUE)
 pca_out <- pca(Y, method="svd", center = FALSE, nPcs=2)
 x <- pca_out@scores
 l <- pca_out@loadings
