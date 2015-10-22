@@ -57,7 +57,7 @@ Output_S <- PCAreduce(Input, nbt=100, q=30, method='S')
 Output_M <- PCAreduce(Input, nbt=100, q=30, method='M')
 # output is similar list, however the merging was achieved based on largest probability value.
 
-#====PRODUCE PAPER FIGURE 2B==================================
+#====PRODUCE PAPER FIGURE 3B==================================
 
 N <- length(Output_S)
 M <- dim(Output_S[[1]])[2]
