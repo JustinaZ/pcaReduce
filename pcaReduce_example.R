@@ -6,7 +6,7 @@ D <- log2(as.matrix(b) + 1) # log transformation of count data
 
 Input <- t(D) # data matrix, cells in rows, genes in columns
 
-#====REPRODUCE PAPER FIGURE 2A==================================
+#====REPRODUCE PAPER FIGURE 3A==================================
 true_tissue_cls <- lb[,6] # true data partition K=4
 true_cell_cls <- lb[,4]   # true data partition K=11
 
