@@ -97,7 +97,7 @@ lty = c(0,0), pch=c(21,21), pt.bg=c("yellowgreen", "cornflowerblue"), xjust = 0,
 dev.off()
 
 #====ADDITIONAL FIGURE ==================================
-# code below will produce figure similar to paper figure 2B
+# code below will produce figure similar to paper figure 3B
 # however here the merging is based on largest probability.
 
 N <- length(Output_M)
