@@ -27,4 +27,12 @@ CODE:
 pcaReduce_example.R — an example code how to use pcaReduce package
 
 ===================================================================
+
+Paper info:
+"pcaReduce: hierarchical clustering of single cell transcriptional profiles"
+by Justina Žurauskienė, Christopher Yau
+DOI: 10.1186/s12859-016-0984-y
+
+===================================================================
+
 J. 
